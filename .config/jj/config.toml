@@ -1,0 +1,5 @@
+#:schema https://docs.jj-vcs.dev/latest/config-schema.json
+
+[user]
+name = "alaindev"
+email = "alain.segredo2004@gmail.com"

@@ -1,0 +1,9 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --path PATH:/usr/local/sbin\x1e/usr/local/bin\x1e/usr/sbin\x1e/usr/bin\x1e/sbin\x1e/bin\x1e/usr/games\x1e/usr/local/games\x1e/usr/lib/wsl/lib\x1e/mnt/c/Program\x20Files\x20\x28x86\x29/NVIDIA\x20Corporation/PhysX/Common\x1e/mnt/c/Windows/system32\x1e/mnt/c/Windows\x1e/mnt/c/Windows/System32/Wbem\x1e/mnt/c/Windows/System32/WindowsPowerShell/v1\x2e0/\x1e/mnt/c/Windows/System32/OpenSSH/\x1e/mnt/c/Program\x20Files/Git/cmd\x1e/mnt/c/Program\x20Files/nodejs/\x1e/mnt/c/Program\x20Files/FirefoxPWA/\x1e/mnt/c/Program\x20Files/WezTerm\x1e/mnt/c/Users/ggg/\x2ecargo/bin\x1e/mnt/c/Users/ggg/AppData/Local/Programs/Python/Python313/Scripts/\x1e/mnt/c/Users/ggg/AppData/Local/Programs/Python/Python313/\x1e/mnt/c/Users/ggg/AppData/Local/Programs/Python/Launcher/\x1e/mnt/c/Users/ggg/AppData/Local/Programs/Eclipse\x20Adoptium/jdk\x2d21\x2e0\x2e7\x2e6\x2dhotspot/bin\x1e/mnt/c/Users/ggg/AppData/Local/Microsoft/WindowsApps\x1e/mnt/c/Users/ggg/AppData/Local/Programs/Microsoft\x20VS\x20Code/bin\x1e/mnt/c/Users/ggg/AppData/Roaming/npm\x1e/mnt/c/Program\x20Files/WindowsTerminal/terminal\x2d1\x2e24\x2e2372\x2e0/\x1e/mnt/c/Programas/Oh\x20My\x20Posh/\x1e/mnt/c/Scripts/\x1e/usr/local/go/bin/\x1e/home/alaindev/go/bin\x1e/home/alaindev/\x2ecargo/bin/
+SETUVAR VIRTUAL_ENV_DISABLE_PROMPT:true
+SETUVAR __fish_initialized:4300
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR fish_greeting:\x1d

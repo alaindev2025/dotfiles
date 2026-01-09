@@ -1,0 +1,13 @@
+theme = "onedark"
+
+[editor]
+mouse = true
+cursorline = true
+auto-completion = true
+scrolloff = 5
+
+[editor.cursor-shape]
+normal = "bar"
+insert = "bar"
+select = "underline"
+
