@@ -4,6 +4,14 @@ set -gx PAGER less
 set -U fish_greeting
 set -g fish_vi_key_bindings
 
+# if status is-interactive
+#     exec tmux
+# end
+
+if type -q fastfetch
+    fastfetch
+end
+
 if type -q zoxide
     zoxide init fish | source
 end

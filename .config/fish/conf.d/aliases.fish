@@ -1,5 +1,5 @@
 # List commands
-alias ls='eza --all --icons --git'
+alias ls='eza --all --icons --git --group-directories-first'
 alias ll='eza --all --long --group-directories-first --icons --git'
 alias lt='eza --all --tree --level=2 --long --icons --git'
 
