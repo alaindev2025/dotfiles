@@ -14,11 +14,12 @@ alias asg='atuin script get'
 alias asl='atuin script list'
 alias asn='atuin script new'
 alias asrm='atuin script delete'
+alias ash='alias | rg --color=never atuin'
 
 # Tmux commands
 alias tmls='tmux ls'
-alias tmn='tmux new -s'
-alias tma='tmux attach -t'
+alias tms='tmux new-session -A  (tmls -F \'#{session_name}\' | fzf --height 30% --style=full)'
+alias tm='tmux new -As'
 
 # Frecuent commands
 alias nv='nvim'

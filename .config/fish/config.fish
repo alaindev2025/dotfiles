@@ -2,23 +2,17 @@ set -gx EDITOR nvim
 set -gx VISUAl nvim
 set -gx PAGER less
 set -U fish_greeting
-set -g fish_vi_key_bindings
+# set -g fish_vi_key_bindings
 
-# if status is-interactive
-#     exec tmux
-# end
-
-if type -q fastfetch
-    fastfetch
+if status is-interactive
+    if type -q fastfetch
+        fastfetch
+    end
 end
 
 if type -q zoxide
     zoxide init fish | source
 end
-
-# if type -q oh-my-posh
-#   oh-my-posh init fish -c "~/storage/omp/atomic.omp.json" | source
-# end
 
 if type -q starship
     starship init fish | source
