@@ -3,3 +3,4 @@ local map = vim.keymap.set
 
 map("i", "jk", "<Esc>", opts)
 map("n", ";", ":")
+map("n", "!", ":!")
