@@ -11,11 +11,16 @@ return {
       },
       no_italic = true,
       no_bold = true,
-      integrations = {
-        noice = true,
-        telescope = true,
-        cmp = true,
-        which_key = true,
+    },
+    {
+      "rebelot/kanagawa.nvim",
+      priority = 1000,
+      ---@type KanagawaConfig
+      opts = {
+        compile = true,
+        transparent = true,
+        keywordStyle = { italic = false },
+        commentStyle = { italic = false },
       },
     },
   },
@@ -23,6 +28,7 @@ return {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "catppuccin",
+      -- colorscheme = "kanagawa",
     },
   },
 }
