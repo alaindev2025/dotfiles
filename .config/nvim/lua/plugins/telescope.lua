@@ -18,8 +18,6 @@ return {
         n = { ["q"] = require("telescope.actions").close },
       },
     },
-    { "<leader>ff", "<cmd>Telescope fd<cr>", desc = "Find Files (cwd)" },
-
     extensions_list = { "themes", "terms" },
     extensions = {},
   },

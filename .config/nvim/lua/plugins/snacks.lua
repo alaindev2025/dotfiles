@@ -6,7 +6,6 @@ return {
     terminal = { enabled = false },
     dashboard = {
       keys = {
-        { icon = " ", key = "f", desc = "Find File", action = ":Telescope fd" },
         { icon = " ", key = "n", desc = "New File", action = ":ene | startinsert" },
         { icon = " ", key = "g", desc = "Find Text", action = ":lua Snacks.dashboard.pick('live_grep')" },
         { icon = " ", key = "r", desc = "Recent Files", action = ":lua Snacks.dashboard.pick('oldfiles')" },
