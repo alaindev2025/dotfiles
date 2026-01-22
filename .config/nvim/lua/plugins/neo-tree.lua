@@ -9,4 +9,5 @@ return {
 
   lazy = true,
   event = "VeryLazy",
+  enabled = false,
 }

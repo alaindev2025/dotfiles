@@ -1,7 +1,7 @@
-require("bufferline")
-
 return {
   "akinsho/bufferline.nvim",
+  lazy = true,
+  event = "LazyFile",
   ---@type bufferline.UserConfig
   opts = {
     ---@type bufferline.Options
