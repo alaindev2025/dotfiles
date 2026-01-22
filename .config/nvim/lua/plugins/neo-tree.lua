@@ -1,16 +1,9 @@
 return {
   "nvim-neo-tree/neo-tree.nvim",
+  ---@type neotree.Config
   opts = {
-    window = {
-      width = 30,
-    },
-    source = {
-      "document_symbols",
-    },
-    source_selector = {
-      winbar = true,
-      statusline = false,
-    },
+    window = { width = 30 },
+    source = { "document_symbols" },
     popup_border_style = "rounded",
   },
 

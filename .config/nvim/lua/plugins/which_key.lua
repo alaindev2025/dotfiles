@@ -1,6 +1,7 @@
 return {
-  "folke/which-key.nvim",
-  opts = {
-    preset = "helix",
-  },
+    "folke/which-key.nvim",
+    ---@type wk.Opts
+    opts = {
+        preset = "helix",
+    },
 }

@@ -6,7 +6,7 @@ set -U fish_greeting
 
 if status is-interactive
     if type -q fastfetch
-        fastfetch
+        # fastfetch
     end
 end
 
