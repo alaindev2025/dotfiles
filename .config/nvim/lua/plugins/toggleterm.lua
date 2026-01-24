@@ -6,7 +6,7 @@ return {
   ---@type ToggleTermConfig
   opts = {
     size = 20,
-    open_mapping = { [[<c-\>]], [[<c-_>]] },
+    open_mapping = { [[<c-\>]], [[<c-_>]], [[<c-/>]] },
     shade_terminals = false,
     direction = "float",
     hide_numbers = true,
@@ -22,7 +22,7 @@ return {
     end,
   },
   keys = {
-    { "<leader>ft", "<cmd>ToggleTerm 100 direction=float<cr>", desc = "Toggle terminal" },
-    { "<leader>fT", '<cmd>ToggleTerm 101 direction=float dir="~"<cr>', desc = "Toggle terminal (Home)" },
+    { "n", "<leader>ft", "<cmd>ToggleTerm 100 direction=float<cr>", desc = "Toggle terminal" },
+    { "n", "<leader>fT", '<cmd>ToggleTerm 101 direction=float dir="~"<cr>', desc = "Toggle terminal (Home)" },
   },
 }

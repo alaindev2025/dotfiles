@@ -1,6 +1,7 @@
 return {
   "nvim-telescope/telescope.nvim",
   opts = {
+    ---@type TelescopeWindowBorder.config
     defaults = {
       prompt_prefix = "   ",
       selection_caret = " ",

@@ -12,12 +12,15 @@ return {
       enable = true,
       update_root = { enable = false },
     },
+
     view = {
-      width = 30,
       preserve_window_proportions = true,
       centralize_selection = true,
-      signcolumn = "no",
+      signcolumn = "yes",
     },
+
+    ui = { confirm = { default_yes = true } },
+
     renderer = {
       root_folder_label = false,
       highlight_git = "icon",
