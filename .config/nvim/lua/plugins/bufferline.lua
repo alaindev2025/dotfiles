@@ -1,4 +1,4 @@
--- require("bufferline")
+-- require'bufferline'
 return {
   "akinsho/bufferline.nvim",
   lazy = true,

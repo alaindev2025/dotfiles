@@ -1,3 +1,4 @@
+-- require'catppuccin'
 return {
   {
     "catppuccin/nvim",
@@ -42,6 +43,9 @@ return {
             TelescopePromptTitle = { fg = C.crust, bg = C.red },
             TelescopeResultsTitle = { fg = C.crust, bg = C.blue },
             TelescopePromptPrefix = { fg = C.red },
+
+            -- Trouble
+            TroubleNormal = { bg = C.mantle },
 
             -- Treesitter
             ["@punctuation.bracket"] = { fg = C.red },

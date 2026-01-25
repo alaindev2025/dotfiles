@@ -1,3 +1,4 @@
+-- require'toggleterm'
 return {
   "akinsho/toggleterm.nvim",
   version = "*",
