@@ -9,11 +9,12 @@ return {
     options = {
       max_name_length = 12,
       tab_size = 5,
+      separator_style = "slant",
 
       offsets = {
         {
           filetype = "NvimTree",
-          text = "",
+          text = "NvimTree",
           text_align = "center",
           separator = false,
         },

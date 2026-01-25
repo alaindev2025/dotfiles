@@ -8,9 +8,20 @@ return {
 
     sections = {
       lualine_a = { { "mode", right_padding = 2 } },
-      lualine_b = { { "branch" }, { "filename" } },
+
+      lualine_b = {
+        { "branch" },
+        {
+          "filename",
+          symbols = {
+            modfied = "",
+            readonly = "",
+            unnamed = "",
+          },
+        },
+      },
+
       lualine_c = {
-        { "%=" },
         {
           "lsp_status",
           icon = { "  LSP ~" },

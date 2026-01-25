@@ -35,7 +35,7 @@ return {
           return {
             -- Borders
             FloatBorder = { fg = C.surface2, bg = "none" },
-            NormalFloat = { fg = C.overlay2, bg = "none" },
+            NormalFloat = { fg = C.text, bg = "none" },
 
             -- Telescope
             TelescopePreviewTitle = { fg = C.crust, bg = C.green },
