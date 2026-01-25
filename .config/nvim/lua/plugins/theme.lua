@@ -24,6 +24,7 @@ return {
                 c = { fg = C.teal },
               },
               command = { c = { fg = C.peach } },
+              insert = { c = { fg = C.green } },
             }
           end,
         },
