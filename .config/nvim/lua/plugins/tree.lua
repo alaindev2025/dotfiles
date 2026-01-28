@@ -53,7 +53,8 @@ return {
       api.config.mappings.default_on_attach(buf)
 
       -- custom mappings
-      map("n", "H", api.tree.change_root_to_parent, opts("Change root to parent"))
+      map("n", "<C-h>", api.tree.change_root_to_parent, opts("Change root to parent"))
+      map("n", "h", api.node.collapse, opts("Collapse folder"))
       map("n", "l", api.node.open.edit, opts("Open root or open file"))
       map("n", "L", api.tree.change_root_to_node, opts("Change root to node"))
     end,

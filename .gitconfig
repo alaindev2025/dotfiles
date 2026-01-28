@@ -3,3 +3,10 @@
 [user]
 	name = alaindev
 	email = alain.segredo2004@gmail.com
+[core]
+	pager = delta
+[delta]
+  side-by-side = true
+  plus-style = 'black green'
+  minus-style = 'black red'
+  syntax-theme = base16
