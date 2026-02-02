@@ -1,12 +1,7 @@
 # List commands
-alias ls='eza --all --icons --git --group-directories-first'
-alias ll='eza --all --long --group-directories-first --icons --git'
-alias lt='eza --all --tree --level=2 --long --icons --git'
-
-# Git commands 
-alias lg='lazygit'
-alias gs='git status'
-alias gd='git diff'
+alias ls='eza --all --icons --git --group-directories-first --color=always'
+alias ll='eza --all --long --group-directories-first --icons --git --color=always'
+alias lt='eza --all --tree --level=2 --long --icons --git --color=always'
 
 # Atuin scrips commands
 alias asr='atuin script run'

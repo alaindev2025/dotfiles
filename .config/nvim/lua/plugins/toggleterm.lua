@@ -25,5 +25,6 @@ return {
   keys = {
     { "<leader>ft", "<cmd>ToggleTerm 100 direction=float<cr>", desc = "Toggle terminal" },
     { "<leader>fT", '<cmd>ToggleTerm 101 direction=float dir="~"<cr>', desc = "Toggle terminal (Home)" },
+    { "<c-_>", '<cmd>ToggleTerm 101 direction=float dir="~"<cr>', desc = "Toggle terminal (Home)" },
   },
 }
